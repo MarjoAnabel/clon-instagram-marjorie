@@ -1,0 +1,37 @@
+/*Footer*/
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 946px;
+    height: 90px;
+    color: #8E8E8E;
+    font-size: 15px;
+    margin-top: 1620px;
+   }
+
+   .footer2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 745px;
+    margin-left: 100px;
+   }
+
+   .footer3 {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    margin-top: 18px;
+    margin-left: 100px;
+   }
+
+   .footer3 p {
+    padding-right: 20px;
+   }
+
+   .footer3 img {
+    margin-bottom: 3px;
+    width: 15px;
+    padding-left: 5px;
+   }

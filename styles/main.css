@@ -1,0 +1,145 @@
+/*Cabecera*/
+
+main {
+    margin-left: 20%;
+    background-color:#FAFAFA;
+    width: 946px;
+    height: 2600px;
+    
+  }
+
+    .cabecera {
+      display: flex;
+      margin-left: 75px;
+      background-color: #FAFAFA;
+      align-items: center;
+      min-height: 100px;
+      position: relative;
+      }
+
+    .cabecera p {
+      padding-right: 15px;
+    }
+    .cabecera > p {
+      font-size: 25px;
+    }
+
+    
+    .cabecera .boton  {
+      width: 88px;
+      padding-right: 10px;
+    }
+
+    .cabecera p:nth-child(4) {
+      margin-bottom: 10px;
+    }
+
+    .negri {
+      font-weight: bold;
+    }
+
+    .cabecera .chico {
+      width: 35%;
+      margin-top: 20px;
+      padding-right: 95px;
+      padding-top: 100px;
+      
+      }
+
+    .cabecera .numeros {
+      display: flex;
+      position: absolute;
+      padding-top:120px;
+      padding-left: 304px;
+      
+    }
+     .cabecera .parra {
+      display: flex;
+      justify-content: center;
+      width: 660px;
+      margin-top: 230px;
+      position: absolute;
+    } 
+
+    .cabecera .parra p {
+      margin-left: 55px;
+    }
+
+/*Imagened pequeñas*/
+    .minis {
+      display: flex;
+      margin-left: 6%;
+    }
+
+    .minis .fotis {
+      padding: 20px;
+      padding-top: 70px;
+     
+    }
+
+    .minis .fotis1 {
+      padding-top: 70px;
+      padding-right: 20px;
+    }
+
+    .minis p {
+      margin-top:15px;
+      padding-left: 10px;
+
+    }
+
+/*Linea separacion*/
+
+    .raya {
+      height: 1px;
+      background-color: #ebeaea;
+    }
+
+    .rayita {
+      height: 1px;
+      width: 50px;
+      margin-left: 160px;
+      background-color: #262626;
+    }
+
+/*Iconos pequeños*/
+
+    .iconos {
+      display: flex;
+      margin-left: 100px;
+      width: 700px;
+      height: 53px;
+    }
+
+    .iconitos {
+      display: flex;
+      margin-left: 49px;
+      align-items: center;
+    }
+
+    .iconitos p {
+      padding-left: 8px;
+      font-size: 15px;
+    }
+
+    .iconitos img {
+      width: 18px;
+    }
+
+    .iconos > div:first-child {
+      font-weight: bold;
+    }
+
+/*Galeria*/
+    .galeria {
+      width: 999px;
+      height: 293px;
+      top:321px;
+    }
+
+    .galeria > img {
+      width: 321px;
+      height: 293px;
+      padding: 0px 28px 0px 0px;
+      margin-bottom: 20px;
+    }
